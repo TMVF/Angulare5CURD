@@ -1,8 +1,8 @@
 <h6 class="text-center">Employee Register</h6><br />
 <table class="table table-sm table-hover">
   <tr *ngFor="let employee of employeelist">
-    <td>{{employee.name}}</td>
-    <td>{{employee.position}}</td>
+    <td style="color:crimson;">{{employee.name}}</td>
+    <td style="color:mediumslateblue;">{{employee.position}}</td>
     <td>
       <a class="btn" (click)="onEdit(employee)">
         <i class="fa fa-pencil-square-o"></i>
